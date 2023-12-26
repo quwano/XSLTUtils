@@ -1,7 +1,7 @@
 # XSLTUtils
 A versatile and handy collection of templates for XSLT.
 ## Overview
-- same name elements recursively combiner
+- same name elements recursively combiner  
 -- Before conversion
 ~~~
 <?xml version="1.0" encoding="UTF-8"?>
