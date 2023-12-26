@@ -2,13 +2,13 @@
 A versatile and handy collection of templates for XSLT.
 ## Overview
 - same name elements recursively combiner
+-- Before conversion
 ~~~
-Before conversion
 <?xml version="1.0" encoding="UTF-8"?>
 <p>plain text<u>underline</u><u><b>underline and bold</b></u><u><b><i>underline and bold and italic</i></b></u><b><i>bold and italic</i></b><i>italic</i>plain text<u>underline</u><u><b>underline and bold</b></u><u><b><i>underline and bold and italic</i></b></u><b><i>bold and italic</i></b><i>italic</i>plain text</p>
 ~~~
+-- After conversion
 ~~~
-After conversion
 <?xml version="1.0" encoding="UTF-8"?>
 <p>plain text<u>underline<b>underline and bold<i>underline and bold and italic</i></b></u><b><i>bold and italic</i></b><i>italic</i>plain text<u>underline<b>underline and bold<i>underline and bold and italic</i></b></u><b><i>bold and italic</i></b><i>italic</i>plain text</p>
 ~~~
